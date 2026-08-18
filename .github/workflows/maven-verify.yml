@@ -1,0 +1,21 @@
+name: Maven Verify
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'principal'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v6
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'graalvm-community'
+          java-version: '25'
+      - name: Build with Maven
+        run: mvn clean verify
