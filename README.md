@@ -1,6 +1,6 @@
-# jug-jspecify-quarkus
+# JSpecify-Quarkus (2026)
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+### Proyecto demo con algunos usos de JSpecify y NullAway para manejar la nullabilidad con Quarkus.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
