@@ -57,3 +57,4 @@ If you want to learn more about building native executables, please consult <htt
 
 - REST ([guide](https://quarkus.io/guides/rest)): Build RESTful web services and APIs using Jakarta REST (formerly JAX-RS)
 - REST Jackson ([guide](https://quarkus.io/guides/rest#json-serialisation)): Jackson serialization support for Quarkus REST. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it
+- Quarkus Wiremock ([docs](https://docs.quarkiverse.io/quarkus-wiremock/dev/index.html)): Thaks to [Willem Jan Glerum](https://github.com/wjglerum) for the improvements on [v1.7.0](https://github.com/quarkiverse/quarkus-wiremock/releases/tag/1.7.0) after my feedback.  

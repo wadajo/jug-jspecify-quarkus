@@ -1,0 +1,388 @@
+{
+  "pagination": {
+    "total": 132681,
+    "limit": 2,
+    "offset": 0,
+    "total_pages": 66341,
+    "current_page": 1,
+    "next_url": "https:\/\/api.artic.edu\/api\/v1\/artworks?page=2&limit=2"
+  },
+  "data": [
+    {
+      "id": 280194,
+      "api_model": "artworks",
+      "api_link": "https:\/\/api.artic.edu\/api\/v1\/artworks\/280194",
+      "is_boosted": false,
+      "title": "Fragment Depicting a Personification of a Season",
+      "alt_titles": [],
+      "thumbnail": {
+        "lqip": "data:image\/gif;base64,R0lGODlhBAAFAPQAAG9UN3VZOXRaPYFgPYtqQ4dqSI18ZpF9ZZN\/Z5SCa5SDb5eFbpWFcJeGcpeHcpmHc5mNf5mOgZuPgZuRgwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAAIf8LSW1hZ2VNYWdpY2sOZ2FtbWE9MC40NTQ1NDUALAAAAAAEAAUAAAURYNQ80QEIiREUzTEQC6Q0UwgAOw==",
+        "width": 8516,
+        "height": 9808,
+        "alt_text": "A work made of plain weave linen ground with supplementary uncut wool weft pile and supplementary outlining linen weft wrapping with horizontal stripes of supplementary wool weft."
+      },
+      "main_reference_number": "2025.536",
+      "has_not_been_viewed_much": true,
+      "boost_rank": null,
+      "date_start": 400,
+      "date_end": 599,
+      "date_display": "5th\u20136th century",
+      "date_qualifier_title": "Made",
+      "date_qualifier_id": 4,
+      "artist_display": "Byzantine\nProbably Egypt",
+      "place_of_origin": "Egypt",
+      "description": null,
+      "short_description": null,
+      "dimensions": "36.9 \u00d7 27.4 cm (14 1\/2 \u00d7 10 3\/4 in.)",
+      "dimensions_detail": [
+        {
+          "depth": null,
+          "width": 27,
+          "height": 36,
+          "diameter": null,
+          "clarification": null
+        }
+      ],
+      "medium_display": "Plain weave linen ground with supplementary uncut wool weft pile and supplementary outlining linen weft wrapping with horizontal stripes of supplementary wool weft",
+      "inscriptions": null,
+      "credit_line": "Belle M. Borland and David P. Earle III endowment funds; through prior gift of Mr. Armen G. Avedisian in memory of Karekin Der Avedisian",
+      "catalogue_display": null,
+      "publication_history": null,
+      "exhibition_history": null,
+      "provenance_text": "Dr. Jacob Hirsch (1874\u20131955), Munich, New York, Paris, and Lucerne, Switzerland; by descent to his estate, 1955; sold to Adolph Hess AG and Ars Antiqua AG; offered for sale, Ars Antiqua AG, Basel, Switzerland, Dec. 7, 1962, lot 30, bought in; sold to Dr. Roland Maly (1927\u20132006), after 1972 [this and the following according to letter from Gertrude Maly to Cahn Auktionen AG, Feb. 21, 2007; copy in curatorial object file]; by descent to his wife, Gertrud Maly, 2006; sold to Cahn Auktionen AG, Basel, Switzerland, Feb. 21, 2007; offered for sale, Cahn Auktionen AG, Basel, Switzerland, Sept. 21, 2007, lot 145, bought in; sold to the Art Institute of Chicago, 2025.",
+      "edition": null,
+      "publishing_verification_level": "Web Everything",
+      "internal_department_id": 4,
+      "fiscal_year": 2026,
+      "fiscal_year_deaccession": null,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "max_zoom_window_size": -1,
+      "copyright_notice": null,
+      "has_multimedia_resources": false,
+      "has_educational_resources": false,
+      "has_advanced_imaging": false,
+      "colorfulness": 0,
+      "color": {
+        "h": 100,
+        "l": 46,
+        "s": 4,
+        "percentage": 7.183484192886704e-6,
+        "population": 6
+      },
+      "latitude": null,
+      "longitude": null,
+      "latlon": null,
+      "is_on_view": false,
+      "on_loan_display": null,
+      "gallery_title": null,
+      "gallery_id": null,
+      "nomisma_id": null,
+      "artwork_type_title": "Textile",
+      "artwork_type_id": 5,
+      "department_title": "Textiles",
+      "department_id": "PC-14",
+      "artist_id": 37902,
+      "artist_title": "Byzantine",
+      "alt_artist_ids": [],
+      "artist_ids": [
+        37902
+      ],
+      "artist_titles": [
+        "Byzantine"
+      ],
+      "category_ids": [
+        "PC-14"
+      ],
+      "category_titles": [
+        "Textiles"
+      ],
+      "term_titles": [
+        "textile",
+        "linen",
+        "weaving",
+        "byzantine",
+        "seasons",
+        "weaving",
+        "wool (textile)",
+        "plain weaving",
+        "weft wrapping",
+        "figure",
+        "late antique",
+        "early byzantine"
+      ],
+      "style_id": "TM-4707",
+      "style_title": "byzantine",
+      "alt_style_ids": [
+        "TM-4442",
+        "TM-4708"
+      ],
+      "style_ids": [
+        "TM-4707",
+        "TM-4442",
+        "TM-4708"
+      ],
+      "style_titles": [
+        "byzantine",
+        "late antique",
+        "early byzantine"
+      ],
+      "classification_id": "TM-69",
+      "classification_title": "textile",
+      "alt_classification_ids": [
+        "TM-159"
+      ],
+      "classification_ids": [
+        "TM-69",
+        "TM-159"
+      ],
+      "classification_titles": [
+        "textile",
+        "weaving"
+      ],
+      "subject_id": "TM-12632",
+      "alt_subject_ids": [
+        "TM-14859"
+      ],
+      "subject_ids": [
+        "TM-12632",
+        "TM-14859"
+      ],
+      "subject_titles": [
+        "seasons",
+        "figure"
+      ],
+      "material_id": "TM-14007",
+      "alt_material_ids": [
+        "TM-2581"
+      ],
+      "material_ids": [
+        "TM-14007",
+        "TM-2581"
+      ],
+      "material_titles": [
+        "linen",
+        "wool (textile)"
+      ],
+      "technique_id": "TM-4292",
+      "alt_technique_ids": [
+        "TM-10513",
+        "TM-4224"
+      ],
+      "technique_ids": [
+        "TM-4292",
+        "TM-10513",
+        "TM-4224"
+      ],
+      "technique_titles": [
+        "weaving",
+        "plain weaving",
+        "weft wrapping"
+      ],
+      "theme_titles": [
+      ],
+      "image_id": "183befb3-6e4f-8ca7-93d4-9d7aabe97491",
+      "alt_image_ids": [
+        "9cd11b37-3c32-a68e-af3a-61ddc9fe9bcd",
+        "9b9c2b69-cb13-bdb4-4092-408a252096ef",
+        "2b5da9b7-f1ba-9a74-0e2d-c71b8628e6d1"
+      ],
+      "document_ids": [],
+      "sound_ids": [],
+      "video_ids": [],
+      "text_ids": [],
+      "section_ids": [],
+      "section_titles": [],
+      "site_ids": [],
+      "suggest_autocomplete_all": [
+        {
+          "input": [
+            "2025.536"
+          ],
+          "contexts": {
+            "groupings": [
+              "accession"
+            ]
+          }
+        },
+        {
+          "input": [
+            "Fragment Depicting a Personification of a Season"
+          ],
+          "weight": 1,
+          "contexts": {
+            "groupings": [
+              "title"
+            ]
+          }
+        }
+      ],
+      "source_updated_at": "2026-08-18T10:08:19-05:00",
+      "updated_at": "2026-08-18T13:18:14-05:00",
+      "timestamp": "2026-08-18T13:20:25-05:00"
+    },
+    {
+      "id": 284725,
+      "api_model": "artworks",
+      "api_link": "https:\/\/api.artic.edu\/api\/v1\/artworks\/284725",
+      "is_boosted": false,
+      "title": "Toads Hung on Bamboo Tree",
+      "alt_titles": null,
+      "thumbnail": null,
+      "main_reference_number": "2026.257",
+      "has_not_been_viewed_much": true,
+      "boost_rank": null,
+      "date_start": null,
+      "date_end": null,
+      "date_display": "Qing dynasty (1644\u20131911), 18th century",
+      "date_qualifier_title": "",
+      "date_qualifier_id": null,
+      "artist_display": "Luo Ping (Chinese, 1733\u20131799)",
+      "place_of_origin": "China",
+      "description": null,
+      "short_description": null,
+      "dimensions": "53.3 \u00d7 40 cm (21 \u00d7 15 3\/4 in.)",
+      "dimensions_detail": [
+        {
+          "depth": null,
+          "width": 40,
+          "height": 53,
+          "diameter": null,
+          "clarification": null
+        }
+      ],
+      "medium_display": "Hanging scroll, ink and color on paper",
+      "inscriptions": null,
+      "credit_line": "Through prior bequest of Harold R. Warner",
+      "catalogue_display": null,
+      "publication_history": null,
+      "exhibition_history": null,
+      "provenance_text": "Sold, Christie\u2019s, New York, Dec. 4, 1989 lot 119, to Patricia and Thomas Ebrey, Seattle; sold to the Art Institute of Chicago, 2026.",
+      "edition": null,
+      "publishing_verification_level": "Web Cataloged",
+      "internal_department_id": 8,
+      "fiscal_year": 2026,
+      "fiscal_year_deaccession": null,
+      "is_public_domain": false,
+      "is_zoomable": false,
+      "max_zoom_window_size": 843,
+      "copyright_notice": null,
+      "has_multimedia_resources": false,
+      "has_educational_resources": false,
+      "has_advanced_imaging": false,
+      "colorfulness": null,
+      "color": null,
+      "latitude": null,
+      "longitude": null,
+      "latlon": null,
+      "is_on_view": false,
+      "on_loan_display": null,
+      "gallery_title": null,
+      "gallery_id": null,
+      "nomisma_id": null,
+      "artwork_type_title": "Painting",
+      "artwork_type_id": 1,
+      "department_title": null,
+      "department_id": null,
+      "artist_id": 44852,
+      "artist_title": "Luo Ping",
+      "alt_artist_ids": [],
+      "artist_ids": [
+        44852
+      ],
+      "artist_titles": [
+        "Luo Ping"
+      ],
+      "category_ids": [
+      ],
+      "category_titles": [
+      ],
+      "term_titles": [
+      ],
+      "style_id": null,
+      "style_title": null,
+      "alt_style_ids": [],
+      "style_ids": [],
+      "style_titles": [
+      ],
+      "classification_id": null,
+      "classification_title": null,
+      "alt_classification_ids": [
+      ],
+      "classification_ids": [],
+      "classification_titles": [],
+      "subject_id": null,
+      "alt_subject_ids": [],
+      "subject_ids": [
+      ],
+      "subject_titles": [
+      ],
+      "material_id": null,
+      "alt_material_ids": [
+      ],
+      "material_ids": [],
+      "material_titles": [],
+      "technique_id": null,
+      "alt_technique_ids": [],
+      "technique_ids": [],
+      "technique_titles": [
+      ],
+      "theme_titles": [],
+      "image_id": null,
+      "alt_image_ids": [
+      ],
+      "document_ids": [
+      ],
+      "sound_ids": [
+      ],
+      "video_ids": [
+      ],
+      "text_ids": [
+      ],
+      "section_ids": [
+      ],
+      "section_titles": [
+      ],
+      "site_ids": [
+      ],
+      "suggest_autocomplete_all": [
+        {
+          "input": [
+            "2026.257"
+          ],
+          "contexts": {
+            "groupings": [
+              "accession"
+            ]
+          }
+        },
+        {
+          "input": [
+            "Toads Hung on Bamboo Tree"
+          ],
+          "weight": 1,
+          "contexts": {
+            "groupings": [
+              "title"
+            ]
+          }
+        }
+      ],
+      "source_updated_at": "2026-08-18T10:30:41-05:00",
+      "updated_at": "2026-08-18T13:18:13-05:00",
+      "timestamp": "2026-08-18T13:20:25-05:00"
+    }
+  ],
+  "info": {
+    "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+    "license_links": [
+      "https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/",
+      "https:\/\/www.artic.edu\/terms"
+    ],
+    "version": "1.14"
+  },
+  "config": {
+    "iiif_url": "https:\/\/www.artic.edu\/iiif\/2",
+    "website_url": "http:\/\/www.artic.edu"
+  }
+}
