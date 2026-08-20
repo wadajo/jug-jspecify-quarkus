@@ -1,4 +1,4 @@
-package org.wadajo;
+package org.wadajo.model;
 
 import java.time.Year;
 
