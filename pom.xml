@@ -106,6 +106,7 @@
                 <configuration>
                     <parameters>true</parameters>
                     <encoding>UTF-8</encoding>
+                    <failOnWarning>true</failOnWarning>
                     <compilerArgs>
                         <arg>-XDcompilePolicy=simple</arg>
                         <arg>--should-stop=ifError=FLOW</arg>
