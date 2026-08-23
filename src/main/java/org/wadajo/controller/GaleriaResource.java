@@ -31,6 +31,11 @@ public class GaleriaResource {
         Log.info("Fetching obras from external API");
         var responseRaw = obraClient.getResponseWrapper(2);
 
+        if (responseRaw == null) {
+            Log.info("Remote response is null, returning empty ObraResponse");
+            return new ObraResponse(List.of());
+        }
+
         return new ObraResponse(List.of(
             getObra(responseRaw, 0),
             getObra(responseRaw,1)));
