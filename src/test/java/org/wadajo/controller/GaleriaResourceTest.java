@@ -15,6 +15,7 @@ class GaleriaResourceTest {
 
     @InjectMock
     @RestClient
+    @SuppressWarnings("NullAway.Init")
     ObraClient obraClient;
 
     @Inject
