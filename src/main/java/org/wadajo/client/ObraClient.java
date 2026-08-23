@@ -5,6 +5,7 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.QueryParam;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
+import org.jspecify.annotations.Nullable;
 
 @ApplicationScoped
 @RegisterRestClient(configKey = "obras-api")
@@ -12,6 +13,6 @@ import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 public interface ObraClient {
 
     @GET
-    String getResponseWrapper(@QueryParam("limit") Integer limit);
+    @Nullable String getResponseWrapper(@QueryParam("limit") Integer limit);
 
 }
