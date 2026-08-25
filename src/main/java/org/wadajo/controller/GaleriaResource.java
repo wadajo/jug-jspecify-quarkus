@@ -46,7 +46,12 @@ public class GaleriaResource {
                                 .get("data")
                                 .get(position)
                                 .toPrettyString();
-        return JSON_MAPPER.readValue(dataRawField, Obra.class);
+        var obraObtenida = JSON_MAPPER.readValue(dataRawField, Obra.class);
+        Log.infof("Título de la obra: %s", obraObtenida.title());
+        Log.infof("Artista de la obra: %s", obraObtenida.artist_title());
+        Log.infof("¿El año de la obra fue bisiesto?: %b", obraObtenida.date_end().isLeap());
+        Log.infof("Descripción de la obra en mayúscula: %s", obraObtenida.description().toUpperCase());
+        return obraObtenida;
     }
 
 }
