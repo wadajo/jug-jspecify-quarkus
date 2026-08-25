@@ -12,6 +12,7 @@ import org.wadajo.model.Obra;
 import tools.jackson.databind.json.JsonMapper;
 
 import java.util.List;
+import java.util.Objects;
 
 @Path("obras")
 public class GaleriaResource {
@@ -49,8 +50,11 @@ public class GaleriaResource {
         var obraObtenida = JSON_MAPPER.readValue(dataRawField, Obra.class);
         Log.infof("Título de la obra: %s", obraObtenida.title());
         Log.infof("Artista de la obra: %s", obraObtenida.artist_title());
-        Log.infof("¿El año de la obra fue bisiesto?: %b", obraObtenida.date_end().isLeap());
-        Log.infof("Descripción de la obra en mayúscula: %s", obraObtenida.description().toUpperCase());
+        if (obraObtenida.date_end() != null) {
+            Log.infof("¿El año de la obra fue bisiesto?: %b", obraObtenida.date_end().isLeap());
+        }
+        Log.infof("Descripción de la obra en mayúscula: %s",
+            Objects.requireNonNullElse(obraObtenida.description(), "empty").toUpperCase());
         return obraObtenida;
     }
 
